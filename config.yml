@@ -7,10 +7,10 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board
     ApiConfig:
-      ApiHost: "YOUR_PANEL_URL" # 修改这里
-      ApiKey: "YOUR_TOKEN" # 修改这里
+      ApiHost: "v2.mmww.top" # 修改这里
+      ApiKey: "ajhfkjahfkjhakjhvoiwr" # 修改这里
       NodeID: 1
-      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
+      NodeType: Trojan # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type, Remote configuration first
       EnableXTLS: false # Enable XTLS for V2ray and Trojan, emote configuration first
